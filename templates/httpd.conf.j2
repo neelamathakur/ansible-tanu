@@ -1,0 +1,7 @@
+<Virtualhost {{ ansible_default_ipv4.address}}:{{port}}>
+
+ServerName  {{ ansible_fqdn }}
+
+DocumentRoot {{ webroot }}
+
+</Virtualhost>

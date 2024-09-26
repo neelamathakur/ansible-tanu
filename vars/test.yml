@@ -1,0 +1,2 @@
+webconfig: /etc/httpd/conf.d/
+webroot: /var/www/html  
